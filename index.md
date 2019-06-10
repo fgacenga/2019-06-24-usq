@@ -303,7 +303,7 @@ eventbrite: 55607592807          # optional: alphanumeric key for Eventbrite reg
 
   <p>
     Bash is a commonly-used shell that gives you the power to do simple
-    tasks more quickly. We will supply Windows participants access to a VM running Linux.
+    tasks more quickly. We will supply participants access to a VM running Linux.
   </p>
   
  {% comment %}
