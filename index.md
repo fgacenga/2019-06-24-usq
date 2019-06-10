@@ -12,7 +12,7 @@ humantime: "9.00 am - 5.00 pm"    # human-readable times for the workshop (e.g.,
 startdate: 2019-06-24      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2019-06-25        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Francis Gacenga", "Adam Sparks" , "Richard Young"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Rachel King", "Anita Frederiks", "Michael Lane", "Mathieu Clerte", "Ron Ward", "Jake Clark", "Dag Evensberget"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+helper: ["Anita Frederiks", "Michael Lane", "Mathieu Clerte", "Ron Ward", "Jake Clark", "Dag Evensberget"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["eResearchServices@usq.edu.au"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:   https://pad.carpentries.org/usq-R-2019          # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite: 55607592807          # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
@@ -288,7 +288,7 @@ eventbrite: 55607592807          # optional: alphanumeric key for Eventbrite reg
   Library Carpentry
   {% endif %}
   workshop,
-  you will need access to the software described below.
+  you will need to bring your own computer ready to use <a href = "https://www.usq.edu.au/current-students/ict/wireless"> USQ's Wireless Network.
   In addition, you will need an up-to-date web browser.
 </p>
 <p>
@@ -302,9 +302,9 @@ eventbrite: 55607592807          # optional: alphanumeric key for Eventbrite reg
 
   <p>
     Bash is a commonly-used shell that gives you the power to do simple
-    tasks more quickly.
+    tasks more quickly. We will supply Windows participants access to a VM running Linux.
   </p>
-
+ </div>
   <div class="row">
     <div class="col-md-4">
       <h4 id="shell-windows">Windows</h4>
@@ -335,7 +335,7 @@ eventbrite: 55607592807          # optional: alphanumeric key for Eventbrite reg
     </div>
   </div>
 </div> {% comment %} End of 'shell' section. {% endcomment %}
-
+</div>
 
 <div id="editor"> {% comment %} Start of 'editor' section. {% endcomment %}
   <h3>Text Editor</h3>
@@ -343,14 +343,9 @@ eventbrite: 55607592807          # optional: alphanumeric key for Eventbrite reg
   <p>
     When you're writing code, it's nice to have a text editor that is
     optimized for writing code, with features like automatic
-    color-coding of key words. The default text editor on macOS and
-    Linux is usually set to Vim, which is not famous for being
-    intuitive. If you accidentally find yourself stuck in it, hit
-    the <kbd>Esc</kbd> key, followed by <kbd>:</kbd>+<kbd>Q</kbd>+<kbd>!</kbd> 
-    (colon, lower-case 'q', exclamation mark), then hitting <kbd>Return</kbd> to 
-    return to the shell.
+    color-coding of key words. We will use Nano which will be pre-installed in the supplied VM.
   </p>
-
+</div>
   <div class="row">
     <div class="col-md-4">
       <h4 id="editor-windows">Windows</h4>
@@ -475,5 +470,6 @@ eventbrite: 55607592807          # optional: alphanumeric key for Eventbrite reg
       loading the <code>.ova</code> file.
     </li>
   </ol>
+</div>
 </div>
 {% endcomment %}
