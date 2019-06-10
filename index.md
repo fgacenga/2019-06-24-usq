@@ -288,9 +288,9 @@ eventbrite: 55607592807          # optional: alphanumeric key for Eventbrite reg
   Library Carpentry
   {% endif %}
   workshop,
-  you will need to bring your own computer ready to use <a href = "https://www.usq.edu.au/current-students/ict/wireless"> USQ's Wireless Network.
+  you will need to bring your own computer ready to use <a href = "https://www.usq.edu.au/current-students/ict/wireless"> USQ's Wireless Network.</a>
   In addition, you will need an up-to-date web browser.
-</p>
+{% comment %}
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
   that may be useful on the
@@ -298,13 +298,15 @@ eventbrite: 55607592807          # optional: alphanumeric key for Eventbrite reg
 </p>
 
 <div id="shell"> {% comment %} Start of 'shell' section. {% endcomment %}
+ {% endcomment %} 
   <h3>The Bash Shell</h3>
 
   <p>
     Bash is a commonly-used shell that gives you the power to do simple
     tasks more quickly. We will supply Windows participants access to a VM running Linux.
   </p>
- </div>
+  
+ {% comment %}
   <div class="row">
     <div class="col-md-4">
       <h4 id="shell-windows">Windows</h4>
@@ -336,6 +338,7 @@ eventbrite: 55607592807          # optional: alphanumeric key for Eventbrite reg
   </div>
 </div> {% comment %} End of 'shell' section. {% endcomment %}
 </div>
+{% endcomment %}
 
 <div id="editor"> {% comment %} Start of 'editor' section. {% endcomment %}
   <h3>Text Editor</h3>
@@ -346,6 +349,7 @@ eventbrite: 55607592807          # optional: alphanumeric key for Eventbrite reg
     color-coding of key words. We will use Nano which will be pre-installed in the supplied VM.
   </p>
 </div>
+{% comment %}
   <div class="row">
     <div class="col-md-4">
       <h4 id="editor-windows">Windows</h4>
@@ -472,4 +476,5 @@ eventbrite: 55607592807          # optional: alphanumeric key for Eventbrite reg
   </ol>
 </div>
 </div>
+{% endcomment %}
 {% endcomment %}
